@@ -1,12 +1,14 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package another_type_of_employee;
-//********************************************************************
-// StaffMember.java Author: Lewis/Loftus
-//
-// Represents a generic staff member.
-// StaffMember.java Edited by: Giusty Fadh Wiranapoera - 191524044
-// 2B - D4 Teknik Informatika
-// Politeknik Negeri Bandung
-//********************************************************************
+
+/**
+ *
+ * @author giust
+ */
 abstract public class StaffMember {
     protected String name;
     protected String address;

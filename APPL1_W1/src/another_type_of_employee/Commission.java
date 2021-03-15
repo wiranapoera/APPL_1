@@ -1,9 +1,14 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package another_type_of_employee;
-//********************************************************************
-// Commission.java cretaed by: Giusty Fadh Wiranapoera - 191524044
-// 2B - D4 Teknik Informatika
-// Politeknik Negeri Bandung
-//********************************************************************
+
+/**
+ *
+ * @author giust
+ */
 public class Commission extends Hourly{
     private double totalSales;
     private double commissionRate;
@@ -14,14 +19,14 @@ public class Commission extends Hourly{
     }
     
     public void addSales(double totalSales){
-        totalSales = totalSales;
+        this.totalSales += totalSales;
     }
     
     @Override
     public double pay(){
-        double temp = totalSales * commissionRate;
+        double count = totalSales * commissionRate;
         totalSales = 0;
-        return super.pay() + temp;
+        return super.pay() + count;
     }
     
     public String toString(){
