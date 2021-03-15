@@ -9,13 +9,20 @@ package another_type_of_employee;
  *
  * @author giust
  */
+//********************************************************************
+// Staff.java Author: Lewis/Loftus
+//            Edited: Giusty Fadh Wiranapoera - 191524044
+//                    2B - D4 Teknik Informatika | Politeknik Negeri Bandung
+// Represents the personnel staff of a particular business.
+//********************************************************************
 public class Staff {
-     StaffMember[] staffList;
-    //-----------------------------------------------------------------
-    // Sets up the list of staff members.
-    //-----------------------------------------------------------------
+    StaffMember[] staffList;
     public Staff (){
         staffList = new StaffMember[8];
+        
+        //-----------------------------------------------------------------
+        // Sets up the list of staff members.
+        //-----------------------------------------------------------------
         staffList[0] = new Executive ("Sam", "123 Main Line", "555-0469", "123-45-6789", 2423.07);
         staffList[1] = new Employee ("Carla", "456 Off Line", "555-0101", "987-65-4321", 1246.15);
         staffList[2] = new Employee ("Woody", "789 Off Rocker","555-0000", "010-20-3040", 1169.23);
@@ -33,6 +40,7 @@ public class Staff {
         ((Commission)staffList[7]).addHours(40);
         ((Commission)staffList[7]).addSales(950);
     }
+    
     //-----------------------------------------------------------------
     // Pays all staff members.
     //-----------------------------------------------------------------

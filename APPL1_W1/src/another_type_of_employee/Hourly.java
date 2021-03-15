@@ -9,8 +9,14 @@ package another_type_of_employee;
  *
  * @author giust
  */
+//********************************************************************
+// Hourly.java Author: Lewis/Loftus
+//
+// Represents an employee that gets paid by the hour.
+//********************************************************************
 public class Hourly extends Employee{
     private int hoursWorked;
+    
     //-----------------------------------------------------------------
     // Sets up this hourly employee using the specified information.
     //-----------------------------------------------------------------
@@ -18,6 +24,7 @@ public class Hourly extends Employee{
         super (eName, eAddress, ePhone, socSecNumber, rate);
         hoursWorked = 0;
     }
+    
     //-----------------------------------------------------------------
     // Adds the specified number of hours to this employee's
     // accumulated hours.
@@ -25,6 +32,7 @@ public class Hourly extends Employee{
     public void addHours (int moreHours){
         hoursWorked += moreHours;
     }
+    
     //-----------------------------------------------------------------
     // Computes and returns the pay for this hourly employee.
     //-----------------------------------------------------------------
@@ -33,6 +41,7 @@ public class Hourly extends Employee{
         hoursWorked = 0;
         return payment;
     }
+    
     //-----------------------------------------------------------------
     // Returns information about this hourly employee as a string.
     //-----------------------------------------------------------------

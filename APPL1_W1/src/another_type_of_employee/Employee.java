@@ -9,9 +9,15 @@ package another_type_of_employee;
  *
  * @author giust
  */
+//********************************************************************
+// Employee.java Author: Lewis/Loftus
+//
+// Represents a general paid employee.
+//********************************************************************
 public class Employee extends StaffMember{
     protected String socialSecurityNumber;
     protected double payRate;
+    
     //-----------------------------------------------------------------
     // Sets up an employee with the specified information.
     //-----------------------------------------------------------------
@@ -20,6 +26,7 @@ public class Employee extends StaffMember{
         socialSecurityNumber = socSecNumber;
         payRate = rate;
     }
+    
     //-----------------------------------------------------------------
     // Returns information about an employee as a string.
     //-----------------------------------------------------------------
@@ -28,6 +35,7 @@ public class Employee extends StaffMember{
         result += "\nSocial Security Number: " + socialSecurityNumber;
         return result;
     }
+    
     //-----------------------------------------------------------------
     // Returns the pay rate for this employee.
     //-----------------------------------------------------------------

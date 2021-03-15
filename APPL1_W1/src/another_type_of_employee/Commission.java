@@ -9,6 +9,10 @@ package another_type_of_employee;
  *
  * @author giust
  */
+//********************************************************************
+// Commission.java Author: Giusty Fadh Wiranapoera
+//                         2B - D4 Teknik Informatika | Politeknik Negeri Bandung
+//********************************************************************
 public class Commission extends Hourly{
     private double totalSales;
     private double commissionRate;

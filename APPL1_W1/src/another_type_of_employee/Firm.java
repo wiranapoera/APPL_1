@@ -9,6 +9,11 @@ package another_type_of_employee;
  *
  * @author giust
  */
+//********************************************************************
+// Firm.java Author: Lewis/Loftus
+//
+// Demonstrates polymorphism via inheritance.
+//********************************************************************
 public class Firm {
     /**
      * @param args the command line arguments

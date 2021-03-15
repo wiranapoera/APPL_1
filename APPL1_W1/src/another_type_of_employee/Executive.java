@@ -9,6 +9,11 @@ package another_type_of_employee;
  *
  * @author giust
  */
+//********************************************************************
+// Executive.java Author: Lewis/Loftus
+//
+// Represents an executive staff member, who can earn a bonus.
+//********************************************************************
 public class Executive extends Employee{
     private double bonus;
     
