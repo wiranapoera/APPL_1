@@ -104,7 +104,7 @@ public class CirclePanel extends JPanel{
         // Parameters tell how to move circle at click.
         //---------------------------------------------------------------
         public MoveListener(int dx, int dy){
-            this.dx = dx;
+            this.dx = dx{
             this.dy = dy;
         }
         
