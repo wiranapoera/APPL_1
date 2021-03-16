@@ -26,7 +26,7 @@ public class MoveCircle{
         JFrame frame = new JFrame("MoveCircle");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setPreferredSize(new Dimension(500, 300));
-        frame.getContentPane().add(new CirclePanel(500, 30));
+        frame.getContentPane().add(new CirclePanel(500, 300));
         frame.pack();
         frame.setVisible(true);
     }
