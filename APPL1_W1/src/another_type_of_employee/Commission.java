@@ -17,7 +17,8 @@ public class Commission extends Hourly{
     private double totalSales;
     private double commissionRate;
     
-    public Commission(String eName, String eAddress, String ePhone, String socSecNumber, double rate, double commRate) {
+    public Commission(String eName, String eAddress, String ePhone, String socSecNumber, 
+            double rate, double commRate){
         super(eName, eAddress, ePhone, socSecNumber, rate);
         commissionRate = commRate;
     }
@@ -28,9 +29,9 @@ public class Commission extends Hourly{
     
     @Override
     public double pay(){
-        double count = totalSales * commissionRate;
+        double payment = super.pay() + (totalSales * commissionRate);
         totalSales = 0;
-        return super.pay() + count;
+        return payment;
     }
     
     public String toString(){
