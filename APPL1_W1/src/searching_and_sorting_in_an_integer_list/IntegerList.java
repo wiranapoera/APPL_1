@@ -115,16 +115,16 @@ public class IntegerList{
     }
     
     int binarySearchD(int target){
-        int minimum = 0, maximum = list.length-1, middle = 0, location = -1;
-        while(location == -1 && minimum <= maximum){
-            middle = (minimum + maximum) / 2;
-            if(target == list[middle])
-                location = middle;
+        int min = 0, max = list.length-1, mid = 0, location = -1;
+        while(location == -1 && min <= max){
+            mid = (min + max) / 2;
+            if(target == list[mid])
+                location = mid;
             else{
-                if (target > list[middle])
-                    maximum = middle - 1;
+                if (target > list[mid])
+                    max = mid - 1;
                 else
-                    minimum = middle + 1;
+                    min = mid + 1;
             }
         }
         return location;
