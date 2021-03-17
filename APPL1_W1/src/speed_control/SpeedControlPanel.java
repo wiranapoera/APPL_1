@@ -39,9 +39,9 @@ public class SpeedControlPanel extends JPanel {
 
     public SpeedControlPanel() {
         slidePanel = new JPanel();
-
+       
         JLabel slideLabel = new JLabel("Timer Delay");
-
+       
         speedSlider = new JSlider(0, 200, 30);
         speedSlider.addChangeListener(new SlideListener());
 
