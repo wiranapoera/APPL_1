@@ -20,8 +20,7 @@ public class Strings {
         size = scan.nextInt();
         intList = new String[size];
 
-        // To catch new line
-        scan.nextLine();
+        scan.nextLine();  // To catch new line
 
         System.out.println("\nEnter the strings...");
         for (int i = 0; i < size; i++)
