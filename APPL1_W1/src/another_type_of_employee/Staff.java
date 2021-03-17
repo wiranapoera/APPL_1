@@ -30,7 +30,7 @@ public class Staff {
         staffList[4] = new Volunteer ("Norm", "987 Suds Blvd.", "555-8374");
         staffList[5] = new Volunteer ("Cliff", "321 Duds Lane", "555-7282");
         staffList[6] = new Commission ("Zee", "547 Crows","555-5874", "123-45-0987", 6.25, 0.2);
-        staffList[7] = new Commission ("Moo", "458 Zr","555-0987", "098-22=0921", 9.75, 0.15);
+        staffList[7] = new Commission ("Giust", "458 Zr","555-0987", "098-22=0921", 9.75, 0.15);
         
         ((Executive)staffList[0]).awardBonus (500.00);
         ((Hourly)staffList[3]).addHours (40);
