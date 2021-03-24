@@ -109,19 +109,19 @@ public class CirclePanel extends JPanel {
         private void setDirectionButton() {
             switch (this.buttonDirection) {
             case LEFT:
-                left.setToolTipText(dx * used + " points");
+                left.setToolTipText("the ball has been moved to left " + dx * used + " points");
             break;
 
             case RIGHT:
-                right.setToolTipText(dx * used + " points");
+                right.setToolTipText("the ball has been moved to right" + dx * used + " points");
             break;
 
             case UP:
-                up.setToolTipText(dy * used + " points");
+                up.setToolTipText("the ball has been moved to up" + dy * used + " points");
             break;
 
             case DOWN:
-                down.setToolTipText(dy * used + " points");
+                down.setToolTipText("the ball has been moved to down" + dy * used + " points");
             break;
 
             default:
